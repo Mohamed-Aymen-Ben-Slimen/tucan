@@ -17,74 +17,21 @@ body {
   border-radius: 50%;
 }
 
-.beak {
+#logo {
+  width: 80%;
   position: absolute;
-  top: 191px;
-  right: 55px;
-  width: 244px;
-  height: 112px;
-  background-color: #fd5716;
-  border: none;
-  border-radius: 0 90% 0 0;
-  overflow: hidden;
-  outline: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.beak .bottom-curve {
-  position: absolute;
-  left: -77px;
-  bottom: -175px;
-  width: 421px;
-  height: 196px;
-  border-radius: 50%;
-  background-color: #faf9f1;
-}
-
-.beak .side-curve {
-  position: absolute;
-  left: -4px;
-  top: -16px;
-  width: 10%;
-  height: 120%;
-  border-radius: 0 100% 100% 0;
-  background-color: #faf9f1;
-}
-
-.eye {
-  position: absolute;
-  top: 220px;
-  left: 268px;
-  width: 36px;
-  height: 36px;
-  background-color: #181818;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.body {
-  position: absolute;
-  top: 299px;
-  left: 115px;
-  width: 200px;
-  height: 100px;
-  background-color: #181818;
-  border-radius: 100% 0;
-}
-
-.wings {
-  position: absolute;
-  top: 257px;
-  left: 148px;
-  width: 124px;
-  height: 84px;
-  background-color: #181818;
-  border-radius: 0 100%;
+#wings {
   animation: 2.2s ease fly infinite;
-  transform-origin: bottom right;
+  transform-origin: bottom;
 }
 
 @keyframes fly {
-  0% { transform: rotate(-10deg) }
-  50% { transform: rotate(-2deg) }
-  100% { transform: rotate(-10deg) }
+  0% { transform: rotate(-4deg) }
+  50% { transform: rotate(2deg) }
+  100% { transform: rotate(-4deg) }
 }
