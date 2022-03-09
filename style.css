@@ -20,12 +20,12 @@ body {
 .beak {
   position: absolute;
   top: 191px;
-  right: 40px;
-  width: 260px;
+  right: 55px;
+  width: 244px;
   height: 112px;
   background-color: #fd5716;
   border: none;
-  border-radius: 0 100% 0 0;
+  border-radius: 0 90% 0 0;
   overflow: hidden;
   outline: none;
 }
@@ -53,9 +53,9 @@ body {
 .eye {
   position: absolute;
   top: 220px;
-  left: 270px;
-  width: 30px;
-  height: 30px;
+  left: 268px;
+  width: 36px;
+  height: 36px;
   background-color: #181818;
   border-radius: 50%;
   overflow: hidden;
